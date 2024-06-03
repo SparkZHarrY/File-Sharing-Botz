@@ -8,20 +8,30 @@ services:
     repo: https://github.com/SparkZHarrY/File-Sharing-Botz.git      
     branch: main
     envVars:
-      - key: BOT_TOKEN 
+      - key: API_HASH
         sync: false
       - key: API_ID 
         sync: false
-      - key: API_HASH
+      - key: TG_BOT_TOKEN
         sync: false
-      - key: ADMINS
+      - key: OWNER_ID
+        sync: false
+      - key: CHANNEL_ID
+        sync: false
+      - key: DATABASE_URL
         sync: false
       - key: DATABASE_NAME
         sync: false
-      - key: DATABASE_URI
-        sync: false 
-      - key: PICS
+      - key: ADMINS
         sync: false
-      - key: LOG_CHANNEL
-        sync: false    
+      - key: START_MESSAGE
+        sync: false
+      - key: FORCE_SUB_MESSAGE
+        sync: false
+      - key: FORCE_SUB_CHANNEL
+        sync: false
+      - key: PROTECT_CONTENT
+        sync: false
+      - key: FORCE_SUB_MESSAGE
+        sync: false
     autoDeploy: true
